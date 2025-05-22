@@ -50,37 +50,7 @@ Small retailers and vending businesses often rely on manual inventory tracking a
 ---
 
 ## 🗂️ Project Structure
-.
-├── ## Structure
-├── ```plaintext
-├── project-root/
-├── ├── manage.py                   # Django management script
-├── ├── db.sqlite3                  # SQLite database file
-├── ├── databaseApp/                # Main Django application
-├── │   ├── __init__.py
-├── │   ├── admin.py                # Admin site configuration
-├── │   ├── apps.py                 # Application config
-├── │   ├── machine_state.py        # Logic for machine state management
-├── │   ├── models.py               # Database models
-├── │   ├── tests.py                # App-specific tests
-├── │   ├── urls.py                 # Application URLs
-├── │   ├── utils.py                # Utility functions
-├── │   ├── views.py                # View logic
-├── │   ├── migrations/             # Database migration files
-├── │   │   ├── __init__.py
-├── │   │   ├── 0001_initial.py
-├── │   │   ├── 0002_orderdetails_deleted_at.py
-├── │   │   ├── 0003_product_productstock.py
-├── │   │   ├── 0004_delete_product_alter_productstock_options.py
-├── │   │   └── __pycache__/        # Compiled migration files
-├── │   └── __pycache__/            # Compiled Python files for the app
-├── ├── projectdatabase/            # Django project settings
-├── │   ├── __init__.py
-├── │   ├── asgi.py                 # ASGI application setup
-├── │   ├── settings.py             # Project-wide settings
-├── │   ├── urls.py                 # Project-level URL configuration
-├── │   ├── wsgi.py                 # WSGI application setup
-└── │   └── __pycache__/            # Compiled Python files
+[📁 View Interactive Project Structure](https://tree.nathanfriend.com/?s=(%27opFs!(%27fancy!true~fullPath!false~trailingSlash!true~rootDot!true)~source!(%27source!%27%23K%F0%9F%97%82%EF%B8%8F%20PN%20StructureBB%60%60%60plaintextBpN-root%2FBHmanage9*7%24%3D%20scriptBHdb.sqlite3******KSQLitTdzTfileBHdzeApp%3C*7Main%20%24applicaFBXB5admin97Admin%20sitT%3Aapps9YAJconfigB5machine_state.py**YLogic%20for%20machinTstatT%3DB5models9KDzTmodelsB5tests97App-specific%20testsB5urls9YAJURLsB5utils97Utility%20funcFsB5views97View%20logicB5migraFs%3C7DzT%25X850001_initial%2B2_orderdetails_deleted_at%2B3ZZstock%2B4_deleteZ_alterZstock_opFs.py8%22OY%3B%25Ees%20for%20thTappBHpNdze%3CK%24pN%20%26BXB5asgi9YA%2CB5%26.py****7PN-widT%26B5urls9YPN-level%20URL%20%3Awsgi9YW%2C8EesB%27)~version!%271%27)*%20%20%205%22H6%E2%94%80%E2%94%80Y%20K8B%229.py*****B%5CnEO**K%3BPython%20filFtionH%E2%94%9C6JpplicaF%20K%23%20NrojectO%E2%94%946__pycache__%2F**Te%20X5__init__.pyY%207Z_productzatabas%22%E2%94%82*%24Django%20%25migraF%20files8%26settings%2B.py85000%2CSGI%20aJsetup%3AconfiguraFB5%3BCompiled%20%3C%2F****%3Dmanagement%01%3D%3C%3B%3A%2C%2B%26%25%24%22zZYXTONKJHFEB98765*)
 
 
 ---

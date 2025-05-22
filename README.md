@@ -50,34 +50,37 @@ Small retailers and vending businesses often rely on manual inventory tracking a
 ---
 
 ## 🗂️ Project Structure
-project-root/
-├── manage.py                   # Django management script
-├── db.sqlite3                  # SQLite database file
-├── databaseApp/                # Main Django application
-│   ├── __init__.py
-│   ├── admin.py                # Admin site configuration
-│   ├── apps.py                 # Application config
-│   ├── machine_state.py        # Logic for machine state management
-│   ├── models.py               # Database models
-│   ├── tests.py                # App-specific tests
-│   ├── urls.py                 # Application URLs
-│   ├── utils.py                # Utility functions
-│   ├── views.py                # View logic
-│   ├── migrations/             # Database migration files
-│   │   ├── __init__.py
-│   │   ├── 0001_initial.py
-│   │   ├── 0002_orderdetails_deleted_at.py
-│   │   ├── 0003_product_productstock.py
-│   │   ├── 0004_delete_product_alter_productstock_options.py
-│   │   └── __pycache__/        # Compiled migration files
-│   └── __pycache__/            # Compiled Python files for the app
-├── projectdatabase/            # Django project settings
-│   ├── __init__.py
-│   ├── asgi.py                 # ASGI application setup
-│   ├── settings.py             # Project-wide settings
-│   ├── urls.py                 # Project-level URL configuration
-│   ├── wsgi.py                 # WSGI application setup
-│   └── __pycache__/            # Compiled Python files
+.
+├── ## Structure
+├── ```plaintext
+├── project-root/
+├── ├── manage.py                   # Django management script
+├── ├── db.sqlite3                  # SQLite database file
+├── ├── databaseApp/                # Main Django application
+├── │   ├── __init__.py
+├── │   ├── admin.py                # Admin site configuration
+├── │   ├── apps.py                 # Application config
+├── │   ├── machine_state.py        # Logic for machine state management
+├── │   ├── models.py               # Database models
+├── │   ├── tests.py                # App-specific tests
+├── │   ├── urls.py                 # Application URLs
+├── │   ├── utils.py                # Utility functions
+├── │   ├── views.py                # View logic
+├── │   ├── migrations/             # Database migration files
+├── │   │   ├── __init__.py
+├── │   │   ├── 0001_initial.py
+├── │   │   ├── 0002_orderdetails_deleted_at.py
+├── │   │   ├── 0003_product_productstock.py
+├── │   │   ├── 0004_delete_product_alter_productstock_options.py
+├── │   │   └── __pycache__/        # Compiled migration files
+├── │   └── __pycache__/            # Compiled Python files for the app
+├── ├── projectdatabase/            # Django project settings
+├── │   ├── __init__.py
+├── │   ├── asgi.py                 # ASGI application setup
+├── │   ├── settings.py             # Project-wide settings
+├── │   ├── urls.py                 # Project-level URL configuration
+├── │   ├── wsgi.py                 # WSGI application setup
+└── │   └── __pycache__/            # Compiled Python files
 
 
 ---

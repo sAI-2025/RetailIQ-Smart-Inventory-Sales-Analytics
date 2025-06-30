@@ -16,7 +16,7 @@ Small retailers and vending businesses often rely on manual inventory tracking a
 
 - Monitors product stock levels in real-time  
 - Visualizes sales and purchase data interactively  
-- Protects admin access with hashed passwords  
+- Protects admin access with hashed passwords.
 - Provides data-driven insights for smarter business decisions  
 
 ---

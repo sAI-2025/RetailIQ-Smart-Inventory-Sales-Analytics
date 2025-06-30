@@ -114,7 +114,7 @@ Visit [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) to access the a
 ---
 
 <video width="100%" height="auto" controls>
-  <source src="demo.mp4" type="video/mp4">
+  <source src="/demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
